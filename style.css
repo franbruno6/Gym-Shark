@@ -1,0 +1,127 @@
+body{
+    margin-left: 300px;
+    margin-top: 0;
+}
+
+
+#head{
+    background-color: #1FA6FF;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#head h1{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+
+#head img{
+    position:absolute;
+    width: 120px;
+    top: 10px;
+    margin-left: 230px;
+}
+
+
+.page-one h2{
+    text-align: center;
+    color: #1FA6FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#sidebar{
+    top: 0;
+    left: 0;
+    width: 300px;
+    background-color: #232F3E;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    color: white
+}
+
+
+.sidebar-top input[type=search]::placeholder{
+    color: white
+}
+
+
+.sidebar-top input[type=search]{
+    width: 260px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 30px;
+    border: 0px;
+    background-color: #B8B8B8;
+
+}
+
+
+.sidebar-top input[type=button]{
+    width: 108px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: none;
+    display: inline;
+    cursor: pointer;
+    justify-content: space-between;
+    color: white;
+    background-color: #B8B8B8;
+}
+
+
+.sidebar-med{
+    margin-top: 50px;
+}
+
+
+.sidebar-med h3{
+    color: #1FA6FF;
+    border-bottom-style: solid;
+    border-color: black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidebar-med h4{
+    padding-left: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+
+.sidebar-bottom h3{
+    color: #1FA6FF;
+    border-bottom-style: solid;
+    border-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidebar-bottom h5{
+    padding-left: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
