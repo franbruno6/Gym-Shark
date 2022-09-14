@@ -1,8 +1,8 @@
 /*--- Body ---*/
 
 body{
-    margin-left: 300px;
-    margin-top: 0;
+    margin: 0 0 0 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -20,7 +20,6 @@ body{
 #head h1{
     margin: 0;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding-top: 0px;
     font-weight: bold;
@@ -41,7 +40,6 @@ body{
 #head-two{
     text-align: center;
     color: #1FA6FF;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -53,13 +51,11 @@ body{
 
 #head-three{    /* Color y tamaño de h3 */
     color: #1FA6FF;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
 
 #para-img p{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #para-img img{
@@ -120,6 +116,68 @@ section.about-us{
 }
 
 
+/*-- What can I do --*/
+
+section.what-can-i{
+    margin: 70px 100px;
+}
+
+#head-two.what-can-i{
+    padding-top: 30px;
+    margin: 0;
+}
+
+div#ico-para{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 40px 0 40px;
+    gap: 14px;
+}
+
+h3#ico-para{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #1FA6FF;
+    margin: 0;
+}
+
+img#ico-para{
+    width: 50px;
+}
+
+p#ico-para{
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.first-column-wci{
+    padding-right: 20px;
+}
+
+/*
+#head-two.decision-making{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+#ico-para.decision-making{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+}
+
+*/
+
 /*--- Sidebar ---*/
 
 #sidebar{
@@ -178,14 +236,12 @@ section.about-us{
     padding-bottom: 10px;
     padding-left: 10px;
     margin: 15px 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .sidebar-med h4{
     padding-left: 10px;
     font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
 
@@ -198,13 +254,11 @@ section.about-us{
     padding-bottom: 10px;
     padding-left: 10px;
     margin: 15px 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .sidebar-bottom h5{
     padding-left: 10px;
     font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
