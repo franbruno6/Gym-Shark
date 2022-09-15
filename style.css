@@ -2,7 +2,7 @@
 
 body{
     margin: 0 0 0 300px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
 }
 
 
@@ -35,15 +35,12 @@ body{
 }
 
 
-/*--- Homepage ---*/
+/*--- Valores generales ---*/
 
 #head-two{
     text-align: center;
     color: #1FA6FF;
 }
-
-
-/*--- Valores generales ---*/
 
 #para-img{
     display: flex;
@@ -61,6 +58,8 @@ body{
 #para-img img{
     width: 250px;
 }
+
+/*--- Homepage ---*/
 
 /*-- What is Gymshark --*/
 
@@ -124,7 +123,7 @@ section.what-can-i{
 
 #head-two.what-can-i{
     padding-top: 30px;
-    margin: 0;
+    margin: 0 0 25px 0;
 }
 
 div#ico-para{
@@ -159,24 +158,65 @@ p#ico-para{
     padding-right: 20px;
 }
 
-/*
-#head-two.decision-making{
-    display: flex;
-    align-items: center;
-    text-align: center;
+
+/*-- Contact us --*/
+
+section.contact-us{
+    margin: 70px 100px;
 }
 
 
-#ico-para.decision-making{
-    display: flex;
+h4.contact-us{
+    font-size: 12px;
+    color: #1FA6FF;
+    margin: 5px 0;
+}
+
+input.contact-us{
+    padding: 3px;
+    height: 27px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+select.contact-us{
+    padding: 3px;
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    color: gray;
+}
+
+div#first.contact-us{
+    margin: 7px 0;
+}
+
+input[type=submit].contact-us {
+    width: 180px;
+    background: #1FA6FF;
+    color: white;
+    height: 37px;
+    border: white;
+}
+
+section.contact-us-content{
+    display: inline-flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 60px;
+    flex-wrap: wrap;
 }
 
-*/
+section#first-column-cu.contact-us-content{
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+section#second-column-cu.contact-us-content{
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
 /*--- Sidebar ---*/
 
