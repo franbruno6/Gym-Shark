@@ -1,0 +1,80 @@
+/*--- Sidebar ---*/
+
+#sidebar{
+    width: 20%;
+    background-color: #232F3E;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    color: white;
+    bottom: 1px;
+}
+
+
+.sidebar-top input[type=search]::placeholder{
+    color: white
+}
+
+
+.sidebar-top input[type=search]{
+    margin: 10px;
+    margin-right: 0;
+    height: 30px;
+    width: 80%;
+    border: 0px;
+    background-color: #B8B8B8;
+}
+
+
+.sidebar-top input[type=button]{
+    width: 35%;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    display: inline;
+    cursor: pointer;
+    justify-content: space-between;
+    color: white;
+    background-color: #B8B8B8;
+}
+
+
+.sidebar-med{
+    margin-top: 17%;
+}
+
+
+.sidebar-med h3{
+    color: #1FA6FF;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 10%;
+    font-size: 17px;
+}
+
+.sidebar-border{
+    border-style: solid;
+    border-width: 0 0 3px;
+    border-color: black;
+}
+
+
+.sidebar-med h4{
+    padding-left: 10px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+.sidebar-bottom h3{
+    color: #1FA6FF;
+    padding: 4%;
+    margin: 15% 0 0;
+    font-size: 17px;
+}
+
+
+.sidebar-bottom h5{
+    font-size: 13px;
+    margin: 4% 4%;
+}
